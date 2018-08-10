@@ -1,7 +1,7 @@
 # Установка и настройка Babel
 
 1. Переходим в папку куда можно установить node_modules
-2. Устанавлеваем Babel через npm 
+2. Устанавлеваем Babel через npm: 
 npm install --save-dev babel-cli 
 3.  Phpstorm заходим:
 ##### Preferences - Tools - File watchers
@@ -14,4 +14,4 @@ $FileRelativeDir$ --out-dir $FileRelativeDir$ --source-maps --presets env
 7. В поле Output paths прописываем: 
 $FileNameWithoutExtension$-babel.js:$FileNameWithoutExtension$-babel.js.map
 
-### Компаляция готова
+### Компиляция готова
